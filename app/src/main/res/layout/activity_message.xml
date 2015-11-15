@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:id="@+id/message_layout"
+    tools:context="com.example.mikechung.android_messaging_app_implementation.message.MessageActivity">
+
+    <ScrollView
+        android:id="@+id/message_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/addObject">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout1"
+            android:layout_height="wrap_content">
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/addObject"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/addobject_icon"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/addobject_icon_description" >
+        </ImageButton>
+
+    <EditText
+        android:id="@+id/textField"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_weight="4"
+        android:maxLength="30"
+        android:ems="10"
+        android:inputType="text"
+        android:maxHeight="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/addObject"
+        android:layout_toEndOf="@+id/addObject">
+    </EditText>
+
+
+</RelativeLayout>

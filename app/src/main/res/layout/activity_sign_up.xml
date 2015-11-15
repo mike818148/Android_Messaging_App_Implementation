@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.mikechung.android_messaging_app_implementation.register.SignUp">
+
+    <EditText
+        android:id="@+id/create_account"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:maxHeight="70dp"
+        android:inputType="text"
+        android:hint="@string/account"
+        />
+
+    <EditText
+        android:id="@+id/create_password"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:maxHeight="70dp"
+        android:layout_below="@id/create_account"/>
+
+    <EditText
+        android:id="@+id/confirm_password"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:ems="10"
+        android:hint="@string/confirmpassword"
+        android:inputType="textPassword"
+        android:maxHeight="70dp"
+        android:layout_below="@id/create_password"/>
+
+    <EditText
+        android:id="@+id/create_name"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:ems="10"
+        android:hint="@string/create_name"
+        android:inputType="text"
+        android:maxHeight="70dp"
+        android:layout_below="@id/confirm_password"/>
+
+    <EditText
+        android:id="@+id/create_phone_number"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:ems="10"
+        android:hint="@string/create_phone"
+        android:inputType="phone"
+        android:maxHeight="70dp"
+        android:layout_below="@id/create_name"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_activity_sign_up"
+        android:id="@+id/signup_btn"
+        android:layout_below="@+id/create_phone_number"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

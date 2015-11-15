@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mikechung.android_messaging_app_implementation.message.MessageActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item
+        android:id="@+id/action_attachments"
+        android:title="@string/action_attachments"
+        android:icon="@drawable/action_attachments"
+        app:showAsAction="ifRoom"/>
+</menu>

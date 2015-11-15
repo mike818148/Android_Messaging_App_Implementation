@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Wii Talk</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="findFriend_Induction">Please type your friend\'s phone number or id:</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_attachments">Attachements</string>
+    <string name="title_activity_message">MessageActivity</string>
+    <string name="title_activity_contact">ContactActivity</string>
+    <string name="addObject">ADD</string>
+    <string name="title_activity_find_friend">findFriendActivity</string>
+    <string name="findFriendBtn">FIND</string>
+    <string name="action_add_friend">ADD</string>
+    <string name="imageDes">message image</string>
+    <string name="google_maps_key">AIzaSyAe_2ddfRb8n9q7uY_Qa5elin8f-hzuxSQ</string>
+    <string name="title_activity_get_gpslocation">Map</string>
+    <string name="addobject_icon_description">send image icons</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="password">Password</string>
+    <string name="account">Account</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="create_name">Display Name</string>
+    <string name="create_phone">Phone Number</string>
+    <string name="contact_setting">Setting</string>
+</resources>
